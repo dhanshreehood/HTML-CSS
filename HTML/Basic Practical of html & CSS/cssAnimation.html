@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #anime1{
+            height: 300px;
+            width: 300px;
+            border: 5px solid;
+            background-color: rgb(233, 122, 12);
+            animation-duration: 3s;
+            animation-delay: 2s;
+            animation-name: div_animation;
+        }
+        @keyframes div_animation{
+            from{background-color: rgb(233, 122, 12); height: 500px;}
+            to{background-color: blue; width: 100px;}
+        }
+        #anime{
+            height: 300px;
+            width: 300px;
+            border: 5px solid;
+            background-color: rgb(245, 16, 16);
+            animation-duration: 8s;
+            animation-delay: 8s;
+            animation-name: div_animation_2; 
+        }
+        @keyframes div_animation_2{
+            0%{background-color: rgb(245, 16, 16); height: 500px;}
+            25%{background-color: blue; width: 100px;}
+            50%{background-color: rgb(247, 44, 145); height: 100px;}
+            100%{background-color: rgb(157, 255, 0); width: 100px;}
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="anime1"></div><br>
+    <div id="anime"></div>
+</body>
+</html>

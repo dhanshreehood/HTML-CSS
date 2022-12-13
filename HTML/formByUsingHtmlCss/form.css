@@ -1,0 +1,25 @@
+body{
+    background-image: url("bg\ image.jfif");
+   padding:0px 250px 200px 250px;/*top right bottom left*/
+}
+form {
+    border: 8px double;
+    border-color: rgb(77, 10, 116);
+    font-family: 'Times New Roman', Times, serif;
+    padding:40px;
+    background-color: rgb(200, 233, 241);
+    color: black; 
+}
+label{
+    font-weight: 900;
+}
+    
+div{
+    padding-left: 430px;
+
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-size:65px ;
+} 

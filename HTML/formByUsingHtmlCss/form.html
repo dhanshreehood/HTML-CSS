@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <!--
+    <style>
+        body{
+            background-image: url("bg\ image.jfif");
+           padding:0px 250px 200px 250px;/*top right bottom left*/
+        }
+        form {
+            border: 8px double;
+            border-color: rgb(77, 10, 116);
+            font-family: 'Times New Roman', Times, serif;
+            padding:40px;
+            background-color: rgb(200, 233, 241);
+            color: black; 
+        }
+        label{
+            font-weight: 900;
+        }
+            
+        div{
+            padding-left: 430px;
+        
+        }
+        h1{
+            text-align: center;
+            color: aliceblue;
+            font-size:65px ;
+        } 
+    </style>
+    -->
+</head>
+
+<body>
+    <h1>Cybage Employee Registration Form</h1>
+    <form>
+        
+        <div>    
+            <label class="label-class">Name</label><br>
+            <input type="text" name="Emp_Name" placeholder="Enter your name here..."><br><br>
+
+            <label  class="label-class"><b></b>Employee ID</label><br>
+            <input type="text" name="Emp_id"><br><br>
+
+            <label>Email</label><br>
+            <input type="email"><br><br>
+
+            <label>Create Your Password</label><br>
+            <input type="password">
+            <input type="password" placeholder="Confirm your password"><br><br>
+
+            <label>Address</label><br>
+            <textarea name="Address" cols="25" rows="4"></textarea><br><br>
+
+            <label>Designation</label><br>
+            <select name="Desig" id="Designation">
+                <option value="Engineer">Engineer</option>
+                <option value="Manager">Manager</option>
+                <option value="Developer">Developer</option>
+                <option value="Trainer">Trainer</option>
+                <option value="Testing">Testing</option>
+            </select><br> <br>
+
+            <label>Gender</label><br>
+            <input type="radio" name="G1">Male<br>
+            <input type="radio" name="G1">Women <br>
+            <input type="radio" name="G1">Other<br><br>
+
+            <label>Language</label><br>
+            <input type="checkbox" value="Python" name="lan1">Python<br>
+            <input type="checkbox" value="java" name="lan1">Java<br>
+            <input type="checkbox" value="fet" name="lan1">FET<br>
+            <input type="checkbox" value=".net" name="lan1">.Net<br>
+            <input type="checkbox" value="sql" name="lan1">SQL<br><br>
+
+            <label>DOB</label><br>
+            <input type="date" name="dob"><br><br>
+
+            <label>Resume</label><br>
+            <input type="file" name="resume"><br><br>
+
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+
+</html>

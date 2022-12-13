@@ -1,0 +1,82 @@
+       /*Header portion*/
+       body {
+           margin: 0px;
+       }
+
+       .header {
+           background-color: rgb(19, 163, 163);
+           border: 5px solid;
+       }
+
+       h1 {
+           text-align: center;
+           padding-left: 440px;
+           font-size: 40px;
+           color: white;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           font-style: italic;
+
+       }
+
+       .header_img {
+           float: left;
+           padding-top: 0px;
+           height: 137px;
+       }
+
+       .login {
+           padding-left: 1350px;
+       }
+
+       /*Middle portion*/
+       aside {
+           float: right;
+           padding: 10px;
+           width: 200px;
+           height: 480px;
+           background-color: white;
+           position: relative;
+       }
+
+       .middle_section {
+           padding-top: 100px;
+           background-image: url(cybage\ img1.jfif);
+           background-size: cover;
+           background-repeat: no-repeat;
+           height: 630px;
+           animation-duration: 8s;
+           animation-delay: 8s;
+           animation-name: div_animation;
+       }
+
+       @keyframes div_animation {
+           0% {
+               background-image: url("cybage\ img1.jfif");
+               height: 630px;
+           }
+
+           50% {
+               background-image: url("cybage\ img2.jfif");
+               width: 1600px;
+           }
+
+           100% {
+               background-image: url("cybage\ img1.jfif");
+               height: 630px;
+           }
+       }
+
+       .footer {
+           border: 5px solid;
+           column-count: 3;
+           background-color: rgb(19, 163, 163);
+           column-gap: 800px;
+           column-width: 11px;
+           bottom: 0px;
+           padding-left: 120px;
+           float: bottom;
+           font-size: 20px;
+           padding-top: 0px;
+           height: fit-content;
+
+       }

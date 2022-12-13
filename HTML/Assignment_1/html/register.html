@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="\html 2022_ Dhanshree_Vijayalaxmi\Assignment_1\Assign1_css\register.css">
+    
+    <script src="Register.js">
+        
+    </script>
+</head>
+
+<body>
+    <!--Header Portion-->
+    <div class="header">
+        <img src="\html 2022_ Dhanshree_Vijayalaxmi\Assignment_1\Assignment1_Images\cybage logo.jfif" alt="Cyabge Image"
+            class="header_img"></th>
+
+        <h1 class="header-title">Bringing Life to Work!</h1>
+        <p class="login">
+            <button><a href="\html 2022_ Dhanshree_Vijayalaxmi\Assignment_1\html\login.html">Login</a></button>
+            <!-- <button><a href="\html 2022_ Dhanshree_Vijayalaxmi\Assignment_1\register.html">Register</a></button> -->
+        </p>
+    </div>
+
+    <!--Middle portion-->
+
+    <h1 class="form_head">Cybage Employee Registration Form</h1>
+    <form class="register_form">
+
+        <div>
+            <label class="label-class">Name</label><br>
+            <input type="text" name="emp_name" placeholder="Enter your name here..." id="emp_name"><br><br>
+
+            <label class="label-class"><b></b>Employee ID</label><br>
+            <input type="text" name="emp_id" id="emp_id"><br><br>
+
+            <label>Email</label><br>
+            <input type="email" name="email" id="email"><br><br>
+
+            <label>Create Your Password</label><br>
+            <input type="password">
+            <input type="password" placeholder="Confirm your password" name="pswrd" id="pswrd"><br><br>
+
+            <label>Address</label><br>
+            <textarea name="Address" cols="25" rows="4" name="add" id="add"></textarea><br><br>
+
+            <label>Designation</label><br>
+            <select name="Desig" name="desig" id="desig">
+                <option value="Engineer">Engineer</option>
+                <option value="Manager">Manager</option>
+                <option value="Developer">Developer</option>
+                <option value="Trainer">Trainer</option>
+                <option value="Testing">Testing</option>
+            </select><br> <br>
+
+            <label>Gender</label><br>
+            <input type="radio" name="G1" id="G1">Male<br>
+            <input type="radio" name="G1" id="G1">Women <br>
+            <input type="radio" name="G1" id="G1">Other<br><br>
+
+            <label>Language</label><br>
+            <input type="checkbox" value="Python" name="lan1" id="lan1">Python<br>
+            <input type="checkbox" value="java" name="lan1" id="lan1">Java<br>
+            <input type="checkbox" value="fet" name="lan1" id="lan1">FET<br>
+            <input type="checkbox" value=".net" name="lan1" id="lan1">.Net<br>
+            <input type="checkbox" value="sql" name="lan1" id="lan1">SQL<br><br>
+
+            <label>DOB</label><br>
+            <input type="date" name="dob" id="dob"><br><br>
+
+            <label>Resume</label><br>
+            <input type="file" name="resume" id="resume"><br><br>
+
+            <input type="button" value="Register" onclick="registerPage()">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+
+    <!--Footer area-->
+    <div class="footer">
+        <br>
+        <h4>Contact Us:</h4>
+        <ul type="disc">
+            <li><a href="\https://www.cybage.com/about-us">About Us</a></li><br>
+            <li><a
+                    href="\https://www.fundoodata.com/companies-detail/Cybage-Software-Pvt-Ltd/4633.html#:~:text=Address%20-%20Survey%20No%2013A%2F%201%2B2%2B3%2F1%2C%20Vadgaon,Sheri%20Pune%20Maharashtra%2C%20411014%20%28020%29%2066041700%20www.cybage.com">ContactUs</a>
+            </li>
+        </ul>
+
+        <br>
+        <h4>Follow Us:</h4>
+        <ul>
+            <img src="\html 2022_ Dhanshree_Vijayalaxmi\Assignment_1\html\insta.jfif" alt="insta" height="30px"
+                width="30px">
+            <a
+                href="\https://www.bing.com/ck/a?!&&p=f6b29616a3bdb26aJmltdHM9MTY2MTMyMzE0MSZpZ3VpZD1hODkwN2FkZi1jYzAxLTQ1ZTYtOTdjMS1kYjJiNjA4OWUzMjgmaW5zaWQ9NTE0MQ&ptn=3&hsh=3&fclid=70173f4b-2377-11ed-9fd4-060451373a3b&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9jeWJhZ2Uv&ntb=1">Instagram</a><br>
+
+            <img src="\html 2022_ Dhanshree_Vijayalaxmi\Assignment_1\html\fb.jfif" alt="fb" height="30px" width="30px">
+            <a
+                href="\https://www.bing.com/ck/a?!&&p=1b3428c76fa93031JmltdHM9MTY2MTMyMzE5NyZpZ3VpZD1lZDA0ZWFhMi02NDUxLTQ0MjQtODg0My0zM2I3ZThiYTUwNDgmaW5zaWQ9NTEzOQ&ptn=3&hsh=3&fclid=91727624-2377-11ed-8343-3045d4b4fd8f&u=a1L2ltYWdlcy9zZWFyY2g_cT1mYWNlYm9vaytwYWdlK2N5YmFnZSZxcHZ0PWZhY2Vib29rK3BhZ2UrY3liYWdlJkZPUk09SUdSRQ&ntb=1">Facebook</a>
+        </ul>
+    </div>
+</body>
+
+</html>
